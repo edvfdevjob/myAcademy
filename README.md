@@ -75,3 +75,15 @@
 ### **🔹 Usuarios:**
 Admin: admin@myacademy.com / password
 User: responsible@myacademy.com / password
+
+### **🔹 Para los Comunicados (envio de correos):**
+Sobreescriban esto en el .env:
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=sportacusgrrr@gmail.com
+MAIL_PASSWORD=iwbyggpvgittmmrc
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=sportacusgrrr@gmail.com
+MAIL_FROM_NAME="MyAcademy Notifications"
+QUEUE_CONNECTION=database
