@@ -16,6 +16,7 @@
                 <div>
                     <h3 class="text-xl font-semibold">{{ $comunication->title }}</h3>
                     <p class="text-gray-700">{{ $comunication->message }}</p>
+                    <p class="text-gray-700"><strong>Curso:</strong> {{ $comunication->course->name }}</p>
                     <p class="text-gray-500 mt-2">Fecha de envío: {{ \Carbon\Carbon::parse($comunication->date_email)->format('d/m/Y') }}</p>
                 </div>
                 <div class="flex flex-col gap-2 text-center">
