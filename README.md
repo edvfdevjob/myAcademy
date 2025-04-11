@@ -60,7 +60,7 @@
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
-    DB_DATABASE=offers_app
+    DB_DATABASE=my_academy
     DB_USERNAME=root
     DB_PASSWORD=
 5. Ejecutar las migraciones y seeders:
