@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+.authentication-logo{
+    width: 150px;
+}
+
+.navbar-logo{
+    width: 70px;
+}
